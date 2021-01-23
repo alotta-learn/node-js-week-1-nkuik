@@ -20,6 +20,14 @@ app.get("/contact", (request, response) => {
   `);
 });
 
+app.get("/education", (request, response) => {
+    response.send(`
+    <body>
+        <h1>Education</h1>
+        <p>My Education</p>
+    </body>
+  `);
+});
 
 const server = app.listen(3000, function () {
   console.log(`> Ready on http://localhost:3000`);
