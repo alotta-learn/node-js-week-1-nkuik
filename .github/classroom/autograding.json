@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Week 1",
+      "setup": "cd week1/exercise-template && npm install",
+      "run": "npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
