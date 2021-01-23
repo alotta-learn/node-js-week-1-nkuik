@@ -3,7 +3,7 @@
     {
       "name": "Week 1",
       "setup": "cd week1/exercise-template && npm install",
-      "run": "npm test",
+      "run": "cd week1/exercise-template && npm test",
       "input": "",
       "output": "",
       "comparison": "included",
